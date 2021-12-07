@@ -24,3 +24,5 @@ All source code is located in the `src/` directory:
 2. `src/components` are stateful components usually or submodules that integrate the main modules. i.e the module could be the home page but the component could be the introduction section that is on this module.
 3. `src/shared` includes the components, hooks, images, queries, styles, types, and utils that are shared through the solution.
 
+## DEMO
+Open your browser and go to http://react-assesment.s3-website-us-east-1.amazonaws.com/
