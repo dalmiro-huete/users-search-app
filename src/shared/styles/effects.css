@@ -1,9 +1,9 @@
-@keyframes typing {
+@keyframes typeSimulation {
     from { width: 0 }
     to { width: 100% }
 }
 
-@keyframes blinking {
+@keyframes blink {
     from { border-color: transparent }
     to { border-color: #93cbeb }
 }

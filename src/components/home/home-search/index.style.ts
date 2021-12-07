@@ -6,7 +6,7 @@ export const BaseTyping = styled.div`
   overflow: hidden;
   border-right: .3rem solid white;
   white-space: nowrap;
-  animation: typing 2s steps(20, end) forwards, blinking .8s infinite;
+  animation: typeSimulation 2s steps(20, end) forwards, blink .8s infinite;
   font-size: 2.8rem;
   width: 0;
   ${mediaQueries.xlg} {

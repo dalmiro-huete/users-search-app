@@ -16,7 +16,7 @@ const CustomPagination: FC<ICustomPagination> = ({ totalPages, forcePage, onPage
     pageCount={totalPages}
     forcePage={forcePage}
     marginPagesDisplayed={1}
-    pageRangeDisplayed={3}
+    pageRangeDisplayed={1}
     onPageChange={onPageChange}
     containerClassName="pagination"
     pageClassName="pagination__item"
@@ -25,6 +25,7 @@ const CustomPagination: FC<ICustomPagination> = ({ totalPages, forcePage, onPage
     disabledClassName="pagination__link--disabled"
     activeClassName="pagination__link--active"
   />
+
 )
 
 export default CustomPagination
