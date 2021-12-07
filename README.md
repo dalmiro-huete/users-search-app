@@ -5,7 +5,7 @@ Application in charge to search users according with entries and displaying the 
 
 1. Clone or download the project.
 2. `cd` in the project directory.
-3. If you cloned the project, make sure you remove the remote reference to this project by running `git remote rm origin`.
+3. `env` file was added in the repository just for demo purposes
 4. Run `yarn install` or `npm install` to install all dependencies.
 
 ## Commands
