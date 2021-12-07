@@ -5,10 +5,12 @@ import { ButtonType } from '../../types/button/button-type.type'
 export interface IButtonProps {
    text: string
    type: ButtonType
-   onClickAction ? : (event? : any) => void
 }
-const CustomButton : FC<IButtonProps> = ({ type, onClickAction, text }) => (
-  <ButtonStyle type={type} onClick={onClickAction}>{text}</ButtonStyle>
+const CustomButton : FC<IButtonProps> = ({ type, text }) => (
+  <ButtonStyle
+    type={type}
+    value={text}
+  />
 )
 
 export default CustomButton

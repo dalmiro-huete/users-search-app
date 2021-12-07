@@ -10,8 +10,8 @@ import { queryGetUsers } from '../../shared/queries/user/query'
 import HomeResults from '../../components/home/home-results'
 import { USERS_PER_PAGE_SIZE } from '../../shared/utils/constants'
 import { usePagination } from '../../shared/hooks/use-pagination/use-pagination'
-import { CustomPagination } from '../../shared/components/pagination'
 import { homeBaseService } from './utils/helper'
+import CustomPagination from '../../shared/components/custom-pagination'
 
 interface HomeProps {
 }

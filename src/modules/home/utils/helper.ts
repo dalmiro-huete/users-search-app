@@ -51,7 +51,5 @@ export const onUsersSort = (data: any, typeOfSort: boolean = true) => {
     return 0
   })
 
-  console.log('sortedArray', sortedArray)
-
   return { items: [...sortedArray], ...data }
 }

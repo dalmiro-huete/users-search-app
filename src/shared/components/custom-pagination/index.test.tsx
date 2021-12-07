@@ -1,6 +1,6 @@
 import React from 'react'
 import { render } from '@testing-library/react'
-import CustomPagination from './custom-pagination'
+import CustomPagination from "./index";
 
 describe('CustomPagination', () => {
   test('should render CustomPagination', async () => {

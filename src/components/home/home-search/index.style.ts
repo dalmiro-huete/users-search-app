@@ -1,6 +1,22 @@
 import styled from 'styled-components'
 import { mediaQueries } from '../../../shared/styles/media-queries'
 
+export const BaseTyping = styled.div`
+  margin-right: 10px; 
+  overflow: hidden;
+  border-right: .3rem solid white;
+  white-space: nowrap;
+  animation: typing 2s steps(20, end) forwards, blinking .8s infinite;
+  font-size: 2.8rem;
+  width: 0;
+  ${mediaQueries.xlg} {
+    font-size: 2.188rem;
+  }
+  ${mediaQueries.xl} {
+    font-size: 1.563rem;
+  }
+`
+
 export const HomeSearchContainerStyle = styled.div`
   position: relative;
   top: 0px;
@@ -34,6 +50,7 @@ export const HomeSearchFormStyle = styled.div`
 `
 
 export const HomeSearchTextStyle = styled.p`
+  display: inline-block;
   text-align: justify;
   margin-top: 30%;
   font-size: 2.8rem;
