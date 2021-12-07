@@ -22,5 +22,5 @@ All source code is located in the `src/` directory:
 
 1. `src/modules` are the main pages, parent components, or main modules of the application. They are composed of other components to provide all the functionality.
 2. `src/components` are stateful components usually or submodules that integrate the main modules. i.e the module could be the home page but the component could be the introduction section that is on this module.
-3. `src/shared includes the components, hooks, images, queries, styles, types, and utils that are shared through the solution.
+3. `src/shared` includes the components, hooks, images, queries, styles, types, and utils that are shared through the solution.
 
