@@ -1,5 +1,5 @@
 # users-search-app
-Application in charge to search users according with entries and displaying the results in a basic table with sort support
+Application in charge to search users according with entries and displaying the results in a basic table with sort support.
 
 ## Setup Instructions
 
