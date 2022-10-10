@@ -13,7 +13,6 @@ Application in charge to search users according with entries and displaying the 
 - `yarn start`: to start a local development server.
 - `yarn test`: to run the entire unit test suite using `jest`.
 - `yarn test: coverage`: to run the entire unit test suite using `jest` with coverage.
-
 - `yarn upgrade --latest`: To upgrade all packages to their latest versions (could include breaking changes).
 
 ## Code Structure
