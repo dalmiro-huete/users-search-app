@@ -29,7 +29,7 @@ const HomeSearch : FC <IHomeSearchProps> = ({ onChangeSearch, onSubmitSearch, va
             <span>
               <b>Hey ! Welcome </b> to
             </span>
-            <BaseTyping> React JS Test Assignment</BaseTyping>
+            <BaseTyping> React JS Test Assignment Code</BaseTyping>
           </HomeSearchTextStyle>
           <GeneralForm onSubmit={onSubmitForm}>
             <label htmlFor="login">Login</label>
